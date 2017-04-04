@@ -5,18 +5,40 @@ body.page-body {
 }
 
 /* Nav Toolbar */
+.row.top-nav-toolbar {
+  background-color: #f2f2f4;
+  margin: 0 -20px 13px -20px;
+  height: 75px;
+}
 ul.list-inline {
     margin-left: auto;
 }
-
-    ul.list-inline.toolbar-menu li {
-        margin-right: 23px;
-    }
-
-.sign-out-nav .dropdown-menu {
-    margin-top: 18px;
-    min-width: 250px;
+.ed-grid ul {
+  margin-right: 36px;
 }
+  .ed-grid ul li {
+    position: relative;
+    vertical-align: top;
+  }
+  .ed-grid .edu-info .edu-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+    .edu-info .user-info .dropdown a {
+      padding: 0 10px 10px 0;
+    }
+  .ed-grid .prod-info .user-info li {
+    margin: 9px 26px 0 0;
+    text-decoration: underline;
+  }
+  .ed-grid .prod-info .prod-title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+.links-list.user-info {
+  padding-top: 31px;
+}
+
 /* Override to shoehorn in EADMS content with new left nav schema @ 1024 wide*/
 @media (max-width: 992px) {
     .container {

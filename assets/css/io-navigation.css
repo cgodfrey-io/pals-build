@@ -4,30 +4,12 @@
 .top-nav-toolbar {
     background-color: #f2f2f4;
     margin-bottom: 0;
-    height: 50px;
+    height: 100px;
 }
 
 .sign-out-nav {
     /*margin-right: 15px;*/
 }
-
-    .sign-out-nav .dropdown-menu {
-        margin-top: 15px;
-        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        border: 1px solid #f2f2f4;
-        padding: 0;
-    }
-        .sign-out-nav .dropdown-menu > li > a {
-            background-color: #f2f2f4;
-            border-bottom: 1px solid #fff;
-        }
-        .sign-out-nav .dropdown-menu > li > a:hover {
-            background-color: #36434a;
-            color: #fff;
-        }
 /*Nav Close Icon*/
 .page-container .sidebar-menu .logo-env > div.sidebar-collapse a,
 .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu a {
