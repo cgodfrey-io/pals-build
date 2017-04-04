@@ -86,8 +86,7 @@ span.product {
     text-shadow: 3px 3px 3px rgba(0,0,0,.2);
 }*/
 /* Nav Elements */
-.page-container .sidebar-menu #main-menu li a,
-.page-container.sidebar-collapsed #main-menu > li > ul li a {
+.page-container .sidebar-menu #main-menu li a {
     padding: 18px 20px;
 }
 /* Hides the home button */
