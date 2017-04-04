@@ -1,3 +1,6 @@
+.no-top-padding {
+  padding-top: 0 !important;
+}
 .top-nav-toolbar {
     background-color: #f2f2f4;
     margin-bottom: 0;
