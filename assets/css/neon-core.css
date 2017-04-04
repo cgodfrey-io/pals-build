@@ -2922,7 +2922,7 @@ body {
 .page-container {
   width: 100%;
   display: table;
-  height: 100vh;
+  height: 100%;
   table-layout: fixed;
 }
 @media screen and (max-width: 768px) {
@@ -3173,7 +3173,7 @@ body {
 }
 .page-container .sidebar-menu #main-menu li ul > li > a {
   background-color: #2b303a;
-  padding-left: 45px;
+  padding-left: 40px;
 }
 .page-container .sidebar-menu #main-menu li ul > li > a:hover {
   background-color: #2d323d;
@@ -3428,7 +3428,7 @@ float: left;
 */
   display: table-cell;
   vertical-align: top;
-  /* padding: 20px; */
+  padding: 20px;
   background: #ffffff;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -3561,8 +3561,8 @@ float: left;
   position: absolute;
   top: 0;
   left: 65px;
-  margin-top: 1px;
-  padding: 18px 20px;
+  margin-top: -1px;
+  padding: 12px 10px;
   background: #303641;
   border-top: 1px solid #454a54;
   border-bottom: 1px solid #454a54;
